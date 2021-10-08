@@ -20,7 +20,14 @@
 	grid-gap: 15px;
 }
 
-
+.app-wrapper-content {
+		grid-area: content;
+		background-color: var(--light-color);
+}
+.app-wrapper-content img {
+	width: 100%;
+	height: 240px;
+}
 
 
 
