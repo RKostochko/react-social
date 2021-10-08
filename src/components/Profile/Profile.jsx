@@ -3,7 +3,7 @@ import MyPosts from './MyPosts/MyPosts';
 import Avatar from './Avatar/Avatar';
 import Description from './Description/Description';
 
-const Profile = () => {
+const Profile = (props) => {
 	return (
 		<div className={s.profile}>
 			<div>
