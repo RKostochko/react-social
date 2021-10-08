@@ -2,9 +2,7 @@
 	grid-area: nav;
 	background-color: var(--light-color);
 	padding: 15px 10px;
-	display: grid;	
 }
-
 .item {
 	color: var(--dark-color);
 	font-weight: bold;

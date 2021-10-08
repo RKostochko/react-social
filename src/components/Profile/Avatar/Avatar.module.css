@@ -1,0 +1,6 @@
+.avatar img {
+	border: 4px solid #17202A;
+	border-radius: 50%;
+	max-width: 140px;
+	height: auto;
+}

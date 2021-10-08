@@ -1,4 +1,7 @@
 import s from './Profile.module.css';
+import MyPosts from './MyPosts/MyPosts';
+import Avatar from './Avatar/Avatar';
+import Description from './Description/Description';
 
 const Profile = () => {
 	return (
@@ -7,22 +10,10 @@ const Profile = () => {
 				<img src='https://s11.favim.com/orig/7/783/7830/78306/twitter-soft-aesthetic-Favim.com-7830691.jpg' />
 			</div>
 			<div>
-				ava + description
+				<Avatar />
+				<Description />
 			</div>
-			<div>
-				my posts
-				<div>
-					new post
-				</div>
-				<div className={s.posts}>
-					<div className={s.post}>
-						post 1
-					</div>
-					<div className={s.post}>
-						post 2
-					</div>
-				</div>
-			</div>
+			<MyPosts />
 		</div>
 	);
 }
