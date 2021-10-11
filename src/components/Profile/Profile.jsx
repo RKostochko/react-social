@@ -6,7 +6,7 @@ import Description from './Description/Description';
 const Profile = (props) => {
 	return (
 		<div>
-			<div>
+			<div className={s.cover}>
 				<img src='https://s11.favim.com/orig/7/783/7830/78306/twitter-soft-aesthetic-Favim.com-7830691.jpg' />
 			</div>
 			<div>

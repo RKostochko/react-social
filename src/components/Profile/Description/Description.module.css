@@ -1,5 +1,6 @@
 .nickname {
 	font-weight: bold;
-	font-size: 21px;
-	line-height: 25px;
+	font-size: 24px;
+	line-height: 24px;
+	letter-spacing: 0.019em;
 }

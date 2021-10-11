@@ -1,13 +1,23 @@
 :root {
-	--main-color: #1DA1F2;
-	--gray-color: #828282;
-	--dark-color: #0F1419;
-	--ligh-color: #ffffff;
+	--main-color: #1666C5;
+	--gray-color: #9593A0;
+	--dark-color: #000000;
+	--light-color: #ffffff;
+	--bg-color: #F3F3F3;
+}
+
+body {
+	background-color: var(--bg-color);
+	color: var(--dark-color);
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 20px;
+	letter-spacing: -0.016em;
 }
 
 .app-wrapper {
 	display: grid;
-	width: 900px;
+	width: 1440px;
 	margin: 0 auto;
 	padding: 0 auto;
 
@@ -15,14 +25,13 @@
 	"header header"
 	"nav content";
 
-	grid-template-rows: 60px 1fr;
+	grid-template-rows: 127px 1fr;
 	grid-template-columns: 2fr 10fr;
 	grid-gap: 15px;
 }
 
 .app-wrapper-content {
-		grid-area: content;
-		background-color: var(--light-color);
+	grid-area: content;
 }
 .app-wrapper-content img {
 	width: 100%;

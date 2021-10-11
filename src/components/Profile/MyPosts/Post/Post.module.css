@@ -1,10 +1,4 @@
-.post {
-	font-weight: 500;
-	font-size: 15px;
-	line-height: 18px;
-}
 .post img {
-	border-radius: 50%;
-	width: 50px;
+	width: 53px;
 	height: auto;
 }
