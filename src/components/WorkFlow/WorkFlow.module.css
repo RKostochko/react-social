@@ -1,4 +1,5 @@
-.profile {
+.workflow {
+	grid-area: workflow;
 	background-color: var(--light-color);
 	box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.25);
 	border-radius: 0px 0px 10px 10px;

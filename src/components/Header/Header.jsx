@@ -3,7 +3,7 @@ import s from './Header.module.css';
 const Header = (props) => {
 	return (
 		<header className={s.header}>
-			<img src='https://o.remove.bg/downloads/ecb85928-d9c3-406a-960d-cdee8804c90a/DlGcxdOl-removebg-preview.png' />
+			<img src='https://upload.wikimedia.org/wikipedia/commons/f/f9/Logo_Williams_F1.png' />
 		</header>
 	);
 }

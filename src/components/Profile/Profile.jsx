@@ -1,18 +1,12 @@
 import s from './Profile.module.css';
 import MyPosts from './MyPosts/MyPosts';
-import Avatar from './Avatar/Avatar';
-import Description from './Description/Description';
+import ProfileInfo from './ProfileInfo/ProfileInfo';
+
 
 const Profile = (props) => {
 	return (
-		<div>
-			<div className={s.cover}>
-				<img src='https://s11.favim.com/orig/7/783/7830/78306/twitter-soft-aesthetic-Favim.com-7830691.jpg' />
-			</div>
-			<div>
-				<Avatar />
-				<Description />
-			</div>
+		<div className={s.profile}>
+			<ProfileInfo />
 			<MyPosts />
 		</div>
 	);

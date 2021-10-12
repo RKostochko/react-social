@@ -22,11 +22,11 @@ body {
 	padding: 0 auto;
 
 	grid-template-areas: 
-	"header header"
-	"nav content";
+	"header header header"
+	"nav content workflow";
 
 	grid-template-rows: 127px 1fr;
-	grid-template-columns: 2fr 10fr;
+	grid-template-columns: 2fr 6fr 3fr;
 	grid-gap: 15px;
 }
 
