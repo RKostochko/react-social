@@ -1,0 +1,13 @@
+
+.header {
+	grid-area: header;
+	padding: 24px 91px;
+	background-color: var(--light-color);
+	box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.25);
+	border-radius: 0px 0px 10px 10px;
+}
+.header img {
+	width: 65px;
+	height: auto;
+	filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+}
